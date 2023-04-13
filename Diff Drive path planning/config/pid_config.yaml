@@ -1,0 +1,9 @@
+
+
+pid_controller:
+  kp: 0.5 # proportional gain
+  ki: 0.01 # integral gain
+  kd: 0.1 # derivative gain
+  output_min: -1.0 # minimum output value of the PID controller
+  output_max: 1.0 # maximum output value of the PID controller
+  sample_time: 0.01 # time between PID controller updates

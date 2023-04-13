@@ -1,0 +1,7 @@
+robot:
+  name: my_diff_drive_robot
+  type: differential_drive
+  wheel_distance: 0.4 # distance between the wheels
+  wheel_radius: 0.1 # radius of the wheels
+  max_speed: 1.0 # maximum linear speed of the robot in m/s
+  max_angular_speed: 2.0 # maximum angular speed of the robot in rad/s
